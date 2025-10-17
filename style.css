@@ -1,31 +1,53 @@
 .calculator{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     background: cadetblue;
     padding:20px;
-    border-radius: 30px;
+    bottom: 10px;
+    border-radius: 20px;
     box-shadow:2px 3px 2px grey;
 }
 .display{
+    width: 230px;
     padding: 12px;
     background: blanchedalmond;
     color:#3a3838;
     font-size: 2em;
     text-align: right;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 35px;
 }
 .button{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:10px;
+    gap: 15px;
+
 }
 button{
     padding: 10px;
-    border-radius: 5px;
-    font-style:oblique;
+    border-radius: 12px;
+    font-size: bold;
     cursor:pointer;
+}
+
+#color{
+   background-color: rgb(235, 114, 114);
+}
+#color:hover{
+    background-color: gray;
+    color:rgb(235, 114, 114)
 }
 button:hover{
     background-color:gray;
+    color: whitesmoke;
 }
+h1{
+    color: white;
+    font-family: cursive;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/chalkboard-with-math-equations-background_670382-173683.jpg?w=1380);
+    background-size: cover;
+    background-position: center;
+    opacity:0.9;
+   }
